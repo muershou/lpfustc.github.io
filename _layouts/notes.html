@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	{% include head.html %}
+	
+	<body>
+		<div class="container">
+			
+			{% include header.html %}
+			
+			<h3 class="title">{{ page.title }}</h3>
+			<h4 class="date"><info datetime="{{ page.date }}">
+				{{ page.date | date_to_string }} 
+				</info></h4>
+			<br>
+			{{ content }}
+			
+			{% include footer.html %}
+		
+		</div> <!-- /container -->
+	
+	
+		{% include scripts.html %}
+	
+	</body>
+
+</html>

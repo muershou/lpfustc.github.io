@@ -1,0 +1,5 @@
+permalink: /notes/:year/:month/:day/:title
+markdown: kramdown
+#url: https://deepikachhillar.github.io
+#enforce_ssl: deepikachhillar.github.io
+google_analytics_tracking_id: UA-154123554-1
